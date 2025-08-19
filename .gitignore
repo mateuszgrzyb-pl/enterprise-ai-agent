@@ -1,1 +1,6 @@
-__pycache__/\n.env\n*.pyc\n*.pyo\n.venv/\n.DS_Store\n
+__pycache__
+.env
+*.pyc
+*.pyo
+.venv
+.DS_Store
