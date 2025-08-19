@@ -13,7 +13,7 @@ Agent wykorzystuje FastAPI, RAG pipeline, modele językowe i embeddingowe, a tak
 
 ## Instalacja (lokalnie)
 ```bash
-git clone <repo_url>
+git clone git@github.com:mateuszgrzyb-pl/enterprise-ai-agent.git
 cd enterprise_ai_agent
 make dev-start
 ```
