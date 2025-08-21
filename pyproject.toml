@@ -1,18 +1,16 @@
-[project]
+[tool.poetry]
 name = "enterprise-ai-agent"
 version = "0.1.0"
 description = "A comprehensive enterprise-class AI agent for banking applications"
-authors = [
-    {name = "Mateusz Grzyb",email = "mwgrzyb@gmail.com"}
-]
-license = {text = "MIT"}
+authors = ["Mateusz Grzyb <mwgrzyb@gmail.com>"]
+license = "MIT"
 readme = "README.md"
-requires-python = ">=3.11"
-dependencies = [
-    "fastapi (>=0.116.1,<0.117.0)"
-]
+packages = [{include = "app"}]  # <-- TO JEST KLUCZOWA ZMIANA
 
+[tool.poetry.dependencies]
+python = ">=3.11"
+fastapi = ">=0.116.1,<0.117.0"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
