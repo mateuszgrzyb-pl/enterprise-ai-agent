@@ -5,7 +5,7 @@ description = "A comprehensive enterprise-class AI agent for banking application
 authors = ["Mateusz Grzyb <mwgrzyb@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "app"}]  # <-- TO JEST KLUCZOWA ZMIANA
+packages = [{include = "app"}]
 
 [tool.poetry.dependencies]
 python = ">=3.11"
